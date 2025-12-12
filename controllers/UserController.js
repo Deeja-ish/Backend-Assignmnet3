@@ -19,7 +19,7 @@ const signup = async (req, res) => {
 
         const newUser = new User({
             name, 
-            emai,
+            email,
             password: hashedPassword
         });
 

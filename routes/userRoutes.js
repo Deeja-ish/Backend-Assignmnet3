@@ -9,4 +9,4 @@ router.put("/reset-password", resetPassword)
 router.get("/resendOtp", resendOtp)
 router.get("/verifyOtp", verifyOtp)
 
-module.exports = router
+module.exports = router;
